@@ -24,6 +24,10 @@ locals {
       ami           = data.aws_ssm_parameter.ubuntu_2204.value
       instance_type = "t2.micro"
     }
+    instance5 = {
+      ami           = data.aws_ssm_parameter.ubuntu_2204.value
+      instance_type = "t2.micro"
+    }
   }
 }
 
